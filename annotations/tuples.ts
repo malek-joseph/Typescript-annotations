@@ -4,6 +4,9 @@ ourTuple.push('Something new and wrong');
 console.log(ourTuple);
 
 // Type alias
-// type Tuple = [string, boolean, string];
+type Tuple = [string, boolean, string];
 
-const ourTuple: Tuple = ['brown', true, 'red'];
+const NewTuple: Tuple = ['brown', true, 'red'];
+const another: Tuple = ['green', false, 'white'];
+
+// Why use Tuples
