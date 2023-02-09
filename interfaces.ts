@@ -7,6 +7,8 @@ year: number;
   summary(): string;
 }
 
+
+
 const civic = {
   name: 'civic',
   year: 2000,
